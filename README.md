@@ -1,4 +1,4 @@
-# INFINITO#
+# INFINITO #
 
 
 ### The leading call intelligence platform . ###
