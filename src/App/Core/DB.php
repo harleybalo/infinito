@@ -35,6 +35,7 @@ class DB
     
     /**
      * Creates DB Class
+     *      This stops the class from being instantiated more than once
      */
     private function __construct()
     {
@@ -53,7 +54,8 @@ class DB
     }
 
     /**
-     * Get instance of the DB Class
+     * Get instance of the DB Class 
+     *  - An instance is created to allow the instance to only be loaded once
      * 
      * @param string $dbName
      * @return \App\Core\DB
