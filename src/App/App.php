@@ -88,7 +88,7 @@ class App
 
     /**
      * Depending on the environment the job is started using a directory to determine progress
-     *  NOTE: Port should be used instead of this logic - this will prevent the issue
+     *  NOTE: Port (Solo Program) should be used instead of this logic - this will prevent the issue
      * of system crash
      * 
      * @return void
@@ -108,7 +108,7 @@ class App
 
     /**
      * Depending on the environment the job is started using a directory to determine progress
-     *  NOTE: Port should be used instead of this logic - this will prevent the issue
+     *  NOTE: Port (Solo Program) should be used instead of this logic - this will prevent the issue
      * of system crash
      * 
      * @return void
@@ -210,6 +210,7 @@ class App
 
     /**
      * Load config file from parameter.ini
+     *      
      * 
      * @return array
      */
