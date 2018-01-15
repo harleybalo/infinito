@@ -14,3 +14,4 @@
 * To Set up, please see config/parameters.ini file for DB credentials
 * Application is available from app.php 
 * Do composer install for PSR-4 autoloader
+* Logs are saved in stdout.log and errors in stderr.log
